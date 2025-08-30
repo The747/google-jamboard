@@ -1,6 +1,6 @@
 const baseURL =
   process.env.NODE_ENV === "development"
-    ? "http://localhost:8000"
+    ? "https://verbose-happiness-4jj4wpxg5579fqjvx-5001.app.github.dev"
     : "https://google-jamboard.vercel.app";
 
 const userUrl = `${baseURL}/api/user`;
